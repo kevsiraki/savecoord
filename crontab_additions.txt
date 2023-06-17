@@ -1,0 +1,2 @@
+@reboot /bin/bash /path/to/startmc.sh #start the minecraft server at bootup
+0 * * * * pkill -f /path/to/save.sh && /path/to/savecoord.sh #restart the script every hour
